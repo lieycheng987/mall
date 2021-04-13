@@ -24,7 +24,7 @@ export default {
     },
     computed:{
         isEnter(){
-            return this.$route.path.indexOf(this.path)!==-1//判断当前路由是否活跃
+            return this.$route.path.indexOf(this.path)!==-1//indexOf方法判断当前路由是否活跃等于-1表示没找到
         },
         ActiveStyle(){
             return this.isEnter?{color:this.Activecolor} : {}//判断是否是活跃路由改变字体颜色

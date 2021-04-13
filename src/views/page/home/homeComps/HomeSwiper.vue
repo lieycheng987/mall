@@ -31,7 +31,5 @@ export default {
 }
 </script>
 <style scoped>
-.swiper{
-    width: 100%;
-}
+
 </style>

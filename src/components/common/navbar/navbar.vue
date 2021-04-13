@@ -25,8 +25,6 @@ export default {
 }
 .left,.right{
     width: 60px;
-    line-height: 44px;
-    text-align: center;
 }
 .center{
     flex: 1;

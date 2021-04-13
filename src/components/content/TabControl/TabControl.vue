@@ -24,10 +24,10 @@ export default {
         }
     },
     methods:{
-        changespan(param){
+        changespan(index){
             
-            this.currentindex=param;
-            console.log(this.currentindex)
+            this.currentindex=index;
+            this.$emit('tabclick', index);
         }
     }
 }
@@ -36,7 +36,7 @@ export default {
 .tab-control{
     display: flex;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     height: 40px;
     line-height: 40px;
     background-color: #fff;
@@ -45,12 +45,12 @@ export default {
     flex:1; 
 }
 .tab-control-item span{
-    padding: 3px;
+    padding: 5px;
 }
 .active{
     color:#ff5777;
 }
 .active span{
-    border-bottom: 3px solid  #ff8198;;
+    border-bottom: 3px solid  #ff8198;
 }
 </style>

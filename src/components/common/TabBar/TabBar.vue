@@ -21,7 +21,7 @@ body{
     top: 100px;
 }
 #tab-bar{
-    display: inline-flex;
+    display: flex;
     background-color:#ccc;
     position: fixed;
     left: 0;

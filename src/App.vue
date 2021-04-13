@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-     <tab-solt/>
+  <div id="app" class="wrapper">
     <router-view/>
+    <tab-solt/>
   </div>
 </template>
 <script>
@@ -14,5 +14,5 @@ export default {
 }
 </script>
 <style lang='scss'>
- @import "assets/css/base.css";
+  // @import "./assets/css/base";
 </style>
