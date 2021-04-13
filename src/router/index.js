@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import TabBar from '@/components/TabBar/TabBar'
+import TabBar from '@/components/common/TabBar/TabBar'
 Vue.use(VueRouter)
-const Home=()=>import("../views/page/home.vue")
-const Cart=()=>import("../views/page/cart.vue")
-const Category=()=>import("../views/page/category.vue")
-const Profile=()=>import("../views/page/profile.vue")
+const Home=()=>import("@/views/page/home/index.vue")
+const Cart=()=>import("@/views/page/cart/index.vue")
+const Category=()=>import("@/views/page/category/index.vue")
+const Profile=()=>import("@/views/page/profile/index.vue")
 const routes = [
  {
    path:'/',
